@@ -1,0 +1,32 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "description": " ",
+  "homepage": "https://<PROJECT_ID>.appspot.com",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:JonnieDoe/Google-Cloud-Repos.git"
+  },
+  "directory": "main/static/node_modules",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "author": [
+    "JonnieDoe <notify.mynews@protonmail.com>"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "material-components-web": "^0.3.0",
+    "material-ui": "^0.16.7"
+  }
+}
