@@ -10,39 +10,43 @@ Just click `module_name` to go there. ✨
 
 # Python
 ```bash
-$ pip install -t lib -r requirements.txt # prima instalare a librariilor
-$ pip install --upgrade -t lib -r requirements.txt - upgrade
+# First time install the required libraries
+$ pip install -t lib -r requirements.txt 
+
+# Upgrade /force reinstall the libraries 
+$ pip install --upgrade -t lib -r requirements.txt
+$ pip install --upgrade --force-reinstall -t lib -r requirements.txt
 ```
 
 # Bower
 ```bower
+# Install all components
 $ bower install
-# Instaleaza toate componentele
 
+# Update components based on bower.json file
 $ bower update
-# Update la cerintele bower.json
 
+# Cleans extra packages based on bower.json file
 $ bower prune
-# Curata pachetele in plus fata de bower.json
 
+# Install new package and save it to bower.json file
 $ bower install "package name" --save
-# Instalare pachet nou
 ```
 
 # Yarn
 ```yarn
+# Create package.json
 $ yarn init
-# Creaza package.json
 
+# Install the required package
 $ yarn install <pkg_name>
-# Instaleaza pachetul respectiv
 
+# Install the required package and add it to package.json
 $ yarn install <pkg_name>
-# Instaleaza pachetul respectiv si il adauga in package.json
 
+# Install dependencies from package.json
 $ yarn install
-# Instalare dependente din package.json
 
+# Install dependencies from package.json in the specified directory
 $ yarn install --modules-folder "main/static/node_modules"
-# Instalare dependente din package.json in direcotrul specificat
 ```
