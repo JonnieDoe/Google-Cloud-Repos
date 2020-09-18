@@ -1,4 +1,4 @@
-flask==0.11.1
+flask==1.0
 google-api-python-client==1.5.5
 flask-debugtoolbar==0.10.0
 oauth2client==4.0.0
